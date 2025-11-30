@@ -1,0 +1,10 @@
+Source: my-tools
+Section: misc
+Priority: optional
+Maintainer: Your Name <youremail@example.com>
+Standards-Version: 4.6.2
+
+Package: my-tools
+Architecture: all
+Description: Minimal Debian package
+ A short description of the minimal Debian package.

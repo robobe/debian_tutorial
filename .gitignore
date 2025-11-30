@@ -1,0 +1,7 @@
+debs/
+debian/*
+!debian/changelog
+!debian/rules
+!debian/control
+!debian/compat
+!debian/my-tool.install
