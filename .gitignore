@@ -5,3 +5,5 @@ debian/*
 !debian/control
 !debian/compat
 !debian/my-tool.install
+!debian/postinst
+!debian/postrm
