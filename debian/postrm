@@ -1,7 +1,14 @@
 #!/bin/sh
 set -e
 
-echo "Running postrm…"
+if [ "$1" = "remove" ]; then
+    systemctl stop my-tool.service || true
+fi
+
+if [ "$1" = "purge" ]; then
+fi
+
+systemctl daemon-reload || true
 
 
 

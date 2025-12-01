@@ -1,4 +1,4 @@
-my-tools (0.0.2) UNRELEASED; urgency=medium
+my-tools (0.0.3) UNRELEASED; urgency=medium
 
   [ user ]
   * v 0.0.1
@@ -6,5 +6,6 @@ my-tools (0.0.2) UNRELEASED; urgency=medium
 
   [ dev com ]
   * debian debs README.md scripts add debian scripts
+  * debian debs README.md scripts change version and build
 
- -- dev com <dev@example.com>  Sun, 30 Nov 2025 20:21:25 +0200
+ -- dev com <dev@example.com>  Mon, 01 Dec 2025 08:12:51 +0200

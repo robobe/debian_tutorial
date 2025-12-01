@@ -1,7 +1,9 @@
 #!/bin/sh
 set -e
 
-echo "Running postinst…"
+systemctl daemon-reload
+systemctl enable my-tool.service
+systemctl start my-tool.service
 
 
 
