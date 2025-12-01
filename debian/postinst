@@ -2,8 +2,8 @@
 set -e
 
 systemctl daemon-reload
-systemctl enable my-tool.service
-systemctl start my-tool.service
+systemctl enable my-service.service
+systemctl start my-service.service
 
 
 

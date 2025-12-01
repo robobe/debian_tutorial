@@ -2,10 +2,11 @@
 set -e
 
 if [ "$1" = "remove" ]; then
-    systemctl stop my-tool.service || true
+    systemctl stop my-service.service || true
 fi
 
 if [ "$1" = "purge" ]; then
+	echo purge
 fi
 
 systemctl daemon-reload || true
