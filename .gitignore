@@ -4,6 +4,6 @@ debian/*
 !debian/rules
 !debian/control
 !debian/compat
-!debian/my-tool.install
+!debian/my-tools.install
 !debian/postinst
 !debian/postrm

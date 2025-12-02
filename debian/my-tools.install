@@ -1,0 +1,2 @@
+scripts/my-tool.sh /usr/bin
+services/my-service.service lib/systemd/system/
